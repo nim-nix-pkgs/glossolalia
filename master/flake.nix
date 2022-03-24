@@ -1,5 +1,5 @@
 {
-  description = ''A DSL for quickly writing parsers'';
+  description = ''A DSL to quickly write parsers'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -12,6 +12,14 @@
   inputs.src-glossolalia-master.owner = "fowlmouth";
   inputs.src-glossolalia-master.repo  = "glossolalia";
   inputs.src-glossolalia-master.type  = "github";
+  
+  inputs."fowltek".owner = "nim-nix-pkgs";
+  inputs."fowltek".ref   = "master";
+  inputs."fowltek".repo  = "fowltek";
+  inputs."fowltek".dir   = "";
+  inputs."fowltek".type  = "github";
+  inputs."fowltek".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."fowltek".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
