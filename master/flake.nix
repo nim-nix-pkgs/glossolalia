@@ -16,7 +16,7 @@
   inputs."fowltek".owner = "nim-nix-pkgs";
   inputs."fowltek".ref   = "master";
   inputs."fowltek".repo  = "fowltek";
-  inputs."fowltek".dir   = "";
+  inputs."fowltek".dir   = "master";
   inputs."fowltek".type  = "github";
   inputs."fowltek".inputs.nixpkgs.follows = "nixpkgs";
   inputs."fowltek".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
@@ -25,10 +25,13 @@
   let 
     lib  = flakeNimbleLib.lib;
     args = ["self" "nixpkgs" "flakeNimbleLib" "src-glossolalia-master"];
-  in lib.mkRefOutput {
+    over = if builtins.pathExists ./override.nix 
+           then { override = import ./override.nix; }
+           else { };
+  in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
     src  = deps."src-glossolalia-master";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
-  };
+  } );
 }

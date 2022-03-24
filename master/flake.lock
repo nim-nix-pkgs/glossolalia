@@ -26,45 +26,18 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "fowltek-master": "fowltek-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107536,
-        "narHash": "sha256-Zict9Dl4I7l67xeZw3DVLBBfxpCa8TeJ1VJe1ur244c=",
-        "owner": "nim-nix-pkgs",
-        "repo": "fowltek",
-        "rev": "6dc38e1dbe060b21760c13c01f810588288b3893",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "fowltek",
-        "type": "github"
-      }
-    },
-    "fowltek-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "fowltek",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "fowltek",
           "nixpkgs"
         ],
         "src-fowltek-master": "src-fowltek-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107536,
-        "narHash": "sha256-Zict9Dl4I7l67xeZw3DVLBBfxpCa8TeJ1VJe1ur244c=",
+        "lastModified": 1648163105,
+        "narHash": "sha256-u7mE+HUrdUVmwSGDJf0liNquOg0HaxUDlKuBA6aidtE=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "6dc38e1dbe060b21760c13c01f810588288b3893",
+        "rev": "60a3ba8caeee543ef03b9a26da399a1d10caecb7",
         "type": "github"
       },
       "original": {
