@@ -21,6 +21,60 @@
         "type": "github"
       }
     },
+    "fowltek": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "fowltek-master": "fowltek-master",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648081040,
+        "narHash": "sha256-Bde/2WVB/hbJyErCavKBvkcw4M3Z9Qt/Y9AcSuFqhE8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "fowltek",
+        "rev": "504a071f5a8577eaf11b5d0f5add56cd9439d71f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "fowltek",
+        "type": "github"
+      }
+    },
+    "fowltek-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "fowltek",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "fowltek",
+          "nixpkgs"
+        ],
+        "src-fowltek-master": "src-fowltek-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648081040,
+        "narHash": "sha256-Bde/2WVB/hbJyErCavKBvkcw4M3Z9Qt/Y9AcSuFqhE8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "fowltek",
+        "rev": "504a071f5a8577eaf11b5d0f5add56cd9439d71f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "fowltek",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
@@ -35,8 +89,26 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "fowltek": "fowltek",
         "nixpkgs": "nixpkgs",
         "src-glossolalia-master": "src-glossolalia-master"
+      }
+    },
+    "src-fowltek-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1433253589,
+        "narHash": "sha256-8t5bG6R3gZZZOUzodW2Cl1pd7PRFGURzPMAESstqpmo=",
+        "owner": "fowlmouth",
+        "repo": "nimlibs",
+        "rev": "c8db2ab0acc505d63f26c15d525e01fa970a8cf6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fowlmouth",
+        "ref": "refs/heads/master",
+        "repo": "nimlibs",
+        "type": "github"
       }
     },
     "src-glossolalia-master": {
