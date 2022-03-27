@@ -11,6 +11,7 @@
   inputs.src-glossolalia-master.ref   = "refs/heads/master";
   inputs.src-glossolalia-master.owner = "fowlmouth";
   inputs.src-glossolalia-master.repo  = "glossolalia";
+  inputs.src-glossolalia-master.dir   = "";
   inputs.src-glossolalia-master.type  = "github";
   
   inputs."fowltek".owner = "nim-nix-pkgs";
