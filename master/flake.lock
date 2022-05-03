@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1650750238,
-        "narHash": "sha256-QS1t7SPLRL4yO3dkbSWx+1lf7UaKJL11Mf6FXpIE2kc=",
+        "lastModified": 1651555436,
+        "narHash": "sha256-FmrCFeB0noQr5NsBOh+WAjTRDNTtXsO868PUj33oruY=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "f8233a8657ed5fcc2f1130bd34de21c442d8502d",
+        "rev": "8b5927cf2cb28ce8bd648ae1289722b2e11455d5",
         "type": "github"
       },
       "original": {
@@ -50,8 +50,8 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
-        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
+        "path": "/nix/store/q2jrkx5a3z6yxzbfai0kxpnqki80jm3l-source",
         "type": "path"
       },
       "original": {
