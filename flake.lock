@@ -24,20 +24,22 @@
     "fowltek": {
       "inputs": {
         "flakeNimbleLib": [
+          "glossolalia-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "glossolalia-master",
           "nixpkgs"
         ],
         "src-fowltek-master": "src-fowltek-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651917960,
-        "narHash": "sha256-jNsEvxiwKXlEoBQwTIBrpBx3/4d8dpBHbRAlIrodAW0=",
+        "lastModified": 1651555436,
+        "narHash": "sha256-FmrCFeB0noQr5NsBOh+WAjTRDNTtXsO868PUj33oruY=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "30a3f1cae4c19a7eade66ece979572d1144ba6e5",
+        "rev": "8b5927cf2cb28ce8bd648ae1289722b2e11455d5",
         "type": "github"
       },
       "original": {
@@ -45,6 +47,34 @@
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "fowltek",
+        "type": "github"
+      }
+    },
+    "glossolalia-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "fowltek": "fowltek",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-glossolalia-master": "src-glossolalia-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556727,
+        "narHash": "sha256-p9QSbVBeWfobcxTLHVW6+2a55OYXtXYFdUBVxYZqxkY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "glossolalia",
+        "rev": "dcbb25a5b47b46d99504705c55e9257bec40092c",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "glossolalia",
         "type": "github"
       }
     },
@@ -62,9 +92,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "fowltek": "fowltek",
-        "nixpkgs": "nixpkgs",
-        "src-glossolalia-master": "src-glossolalia-master"
+        "glossolalia-master": "glossolalia-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-fowltek-master": {
