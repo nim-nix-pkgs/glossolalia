@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652391037,
-        "narHash": "sha256-zkocBFYPYxzhAeXwyasd2xDvgIekZqT4YmvE2vCLbvQ=",
+        "lastModified": 1652791456,
+        "narHash": "sha256-XcnbmojXIDRq7oLz6tj/0TBh36F1HlPplxXTOSrPaII=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "24e8a63f978d2cdcbd16207ccc750e77f4817451",
+        "rev": "622688f18ffd26e35281105c4e5099e8efaafdad",
         "type": "github"
       },
       "original": {
