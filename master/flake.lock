@@ -164,11 +164,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668754538,
-        "narHash": "sha256-dufcAZMUt1MdG9xodcBs8j2p4b1ib+6ngkcM1RBwChU=",
+        "lastModified": 1668775823,
+        "narHash": "sha256-Xc8Z5buEUTtD+vA9wVd6jBiMpEKjiQjxQKkwWQ7m3+Y=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "d6277b2b086831b0900f7d5e97548b73733df377",
+        "rev": "8fe0af159c2d5c3994d79c83df185e3a15805176",
         "type": "github"
       },
       "original": {

@@ -166,11 +166,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668748761,
-        "narHash": "sha256-2kMBwFYQt5HrcOiPwwFi8kF5KeVHe7iR9h40xYBRd2g=",
+        "lastModified": 1668754538,
+        "narHash": "sha256-dufcAZMUt1MdG9xodcBs8j2p4b1ib+6ngkcM1RBwChU=",
         "owner": "nim-nix-pkgs",
         "repo": "fowltek",
-        "rev": "925726fab2f9e741425e06ef709af3ad6ba78d5d",
+        "rev": "d6277b2b086831b0900f7d5e97548b73733df377",
         "type": "github"
       },
       "original": {
@@ -212,11 +212,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668749700,
-        "narHash": "sha256-GFxHlCI+BAFgQbpjX1SzuqxFYUIrllSxJlqnDzxolVQ=",
+        "lastModified": 1668755405,
+        "narHash": "sha256-0wpZvUL3qexHupF8upusJtEfajjym5/6DolY7nv9f7E=",
         "owner": "nim-nix-pkgs",
         "repo": "glossolalia",
-        "rev": "5f604092b83f7b938b4d7871738ae4452fe9b670",
+        "rev": "e33e38752244d2410d1b05d6491124423a7553fc",
         "type": "github"
       },
       "original": {
